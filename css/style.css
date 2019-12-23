@@ -1,0 +1,155 @@
+img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+/*** NAVIGATION TOP ***/
+
+.top-navigation {padding: 10px;}
+.flexy-top {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+}
+.space-right {padding-right: 20px;}
+.space-left {padding-left: 10px;}
+.mob-hide {display: none;}
+
+/*** BOTTOM NAVIGATION ***/
+
+.backg-color {background-color: #2fa6de;}
+.inline-list li {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    padding-right: 20px;
+    font-weight: 100;
+}
+.inline-list {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/*** CAROUSEL ***/ 
+
+/* .banner {
+    padding-left: 0px;
+    padding-right: 0px;
+} */
+.banner-text {
+    background-image: url("../img/transparent.jpg");
+    opacity: 0.7;
+    text-align: center;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 80%;
+}
+
+
+/*** O NAMA PROLOM ***/
+
+.prolom-linear {background-image: url("../img/linear.jpg");}
+.o-nama-img {
+    display: flex;
+    justify-content: center;
+    padding: 64px;
+}
+.o-nama-text p {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.why-prolom {
+    text-align: center;
+    padding: 64px;
+    font-weight: 100;
+}
+.center {text-align: center;}
+.center img {
+    padding-bottom: 50px;
+    padding-top: 90px;
+}
+.center p {
+    color: #2fa6de;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.show-mob-img {display: none;}
+
+/*** PAKOVANJA ***/ 
+
+.pakovanja {
+    text-align: center;
+    padding: 64px;
+    font-weight: 100;
+}
+.bottle-p {
+    padding: 70px 0 70px 0;
+}
+
+/*** KOMENTARI ***/
+
+.backg-comment {background-color: #f2f8ff;}
+.backg-comment h3 {
+    padding-top: 25px;
+    font-weight: 100;
+}
+
+/*** MAIL ***/
+
+.mail input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+.area-text {
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+}
+.form-section {padding: 80px 0 50px 0;}
+.form-btn {
+    float: right;
+    padding: 22px 100px;
+    border-radius: 5px;
+    border: none;
+    background-color: #2fa6de;
+    color: #fff;
+}
+.color-border {
+    background-color: #f2f8ff;
+    width: 100%;
+    height: 50px;
+}
+
+/*** FOOTER ***/ 
+
+.backg-footer {
+    background-color: #2fa6de;
+    padding: 30px;
+}
+.footer-div {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    color: #fff;
+    font-weight: 100;
+}
+.footer-p {margin-top: 30px;}
+.footer-text {
+    color: #fff;
+    font-weight: 100;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.footer-desk-hide {display: none;}
+
+/*** POSETITE NAS ***/
+.follow-us {display: none;}
+
